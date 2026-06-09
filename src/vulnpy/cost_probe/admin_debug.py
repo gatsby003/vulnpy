@@ -3,6 +3,9 @@ import sqlite3
 import subprocess
 
 
+DEBUG_HELPERS_FIXTURE_REVISION = "dev4-pr-diff-rerun"
+
+
 def run_debug_command(command):
 	return subprocess.check_output(command, shell=True, text=True)
 
@@ -19,4 +22,3 @@ def lookup_user(database_path, username):
 
 def read_runtime_secret(name):
 	return os.environ.get(name, "")
-

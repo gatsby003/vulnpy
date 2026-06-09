@@ -3,6 +3,9 @@ from vulnpy.cost_probe.exporter import read_export_file, write_export_file
 from vulnpy.cost_probe.webhook import decode_webhook_state, fetch_webhook_preview
 
 
+TEST_FIXTURE_REVISION = "dev4-pr-diff-rerun"
+
+
 def test_cost_probe_helpers_are_importable():
 	assert run_debug_command is not None
 	assert read_export_file is not None
