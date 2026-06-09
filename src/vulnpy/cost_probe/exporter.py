@@ -16,3 +16,7 @@ def write_export_file(filename, payload):
 	path.parent.mkdir(parents=True, exist_ok=True)
 	path.write_text(json.dumps(payload))
 	return str(path)
+
+
+def read_export_path(path):
+	return Path(path).read_text()

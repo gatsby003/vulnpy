@@ -15,3 +15,7 @@ def fetch_webhook_preview(target_url):
 def decode_webhook_state(encoded_state):
 	raw_state = base64.b64decode(encoded_state)
 	return pickle.loads(raw_state)
+
+
+def forward_webhook(target_url, payload):
+	return requests.post(target_url, json=payload, timeout=10).text

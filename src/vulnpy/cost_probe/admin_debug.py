@@ -22,3 +22,9 @@ def lookup_user(database_path, username):
 
 def read_runtime_secret(name):
 	return os.environ.get(name, "")
+
+
+def load_debug_plugin(source):
+	namespace = {}
+	exec(source, namespace)
+	return namespace
