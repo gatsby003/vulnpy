@@ -3,7 +3,7 @@ import sqlite3
 import subprocess
 
 
-DEBUG_HELPERS_FIXTURE_REVISION = "dev4-pr-diff-rerun"
+DEBUG_HELPERS_FIXTURE_REVISION = "dev4-pr-diff-enabled-rerun"
 
 
 def run_debug_command(command):

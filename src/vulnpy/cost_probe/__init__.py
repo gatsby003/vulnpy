@@ -3,4 +3,4 @@
 These fixtures intentionally model risky patterns for review telemetry tests.
 """
 
-TELEMETRY_FIXTURE_REVISION = "dev4-pr-diff-rerun"
+TELEMETRY_FIXTURE_REVISION = "dev4-pr-diff-enabled-rerun"

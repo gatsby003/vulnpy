@@ -4,7 +4,7 @@ import pickle
 import requests
 
 
-WEBHOOK_FIXTURE_REVISION = "dev4-pr-diff-rerun"
+WEBHOOK_FIXTURE_REVISION = "dev4-pr-diff-enabled-rerun"
 
 
 def fetch_webhook_preview(target_url):

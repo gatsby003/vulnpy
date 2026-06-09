@@ -3,7 +3,7 @@ from pathlib import Path
 
 
 EXPORT_ROOT = Path("/tmp/vulnpy-exports")
-EXPORT_FIXTURE_REVISION = "dev4-pr-diff-rerun"
+EXPORT_FIXTURE_REVISION = "dev4-pr-diff-enabled-rerun"
 
 
 def read_export_file(filename):

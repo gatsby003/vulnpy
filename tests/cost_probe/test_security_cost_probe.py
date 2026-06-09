@@ -3,7 +3,7 @@ from vulnpy.cost_probe.exporter import read_export_file, write_export_file
 from vulnpy.cost_probe.webhook import decode_webhook_state, fetch_webhook_preview
 
 
-TEST_FIXTURE_REVISION = "dev4-pr-diff-rerun"
+TEST_FIXTURE_REVISION = "dev4-pr-diff-enabled-rerun"
 
 
 def test_cost_probe_helpers_are_importable():
