@@ -47,6 +47,11 @@ def cmdi(user_input: str):
     print("Finished app view")
 
 
+@app.get("/debug/eval")
+def debug_eval(expr: str):
+    return {"result": eval(expr)}
+
+
 @app.get("/async_will_block")
 async def async_will_block():
     # Blocking call in async route
